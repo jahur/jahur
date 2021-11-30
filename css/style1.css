@@ -461,7 +461,7 @@ button:focus {
 }
 
 .meta__avatar {
-  display: block;
+  display: none;
   border-radius: 50%;
   margin: 2em auto;
 }
@@ -639,7 +639,7 @@ button:focus {
   text-align: justify;
 }
 .content__item p:first-of-type {
-  font-size: 1.35em;
+  font-size: 1em;
 }
 
 .content__item.content__item--show {
@@ -653,8 +653,8 @@ button:focus {
 
 /* content elements */
 .category--full {
-  font-size: 1.25em;
-  margin-bottom: 20px;
+  font-size: 1em;
+  margin-bottom: 5px;
   color: #ff7700;
 }
 
@@ -671,12 +671,9 @@ button:focus {
   display: block;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
-.meta--full .meta__author::before {
-  content: 'by ';
-  font-weight: normal;
-}
+
 .meta--full .meta__category {
   font-style: italic;
   float: left;
@@ -741,6 +738,7 @@ button:focus {
 .content__item--show .title--full {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
+  line-height: 40px;
 }
 
 .content__item--show .meta--full .meta__avatar {
